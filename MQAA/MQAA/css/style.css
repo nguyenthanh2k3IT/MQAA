@@ -1,0 +1,173 @@
+.mainmenu{
+    min-height: 350px;
+}
+
+.mainmenu .item{
+    padding: 10px;
+}
+
+.mainmenu .head {
+    font-size: 38px;
+    color: #fff;
+    text-shadow: 2px 2px 4px #393939;
+    color: #00ffab;
+    background: #00000073;
+    padding: 15px;
+    line-height: 30px;
+    min-height: 135px;
+    border-style: solid;
+    border-radius: 10px 10px 0 0;
+    border-width: 0 0 2px;
+}
+
+.mainmenu .head_desc {
+    color: #fff;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+.mainmenu .body_desc {
+    color: #fff;
+    font-weight: normal;
+    font-size: 17px;
+    background: #0606061f;
+    padding: 15px;
+    font-weight: normal;
+    min-height: 180px;
+    border-radius: 0 0 10px 10px;
+}
+
+.mainmenu_border {
+    background: #0606061f;
+    border-image: linear-gradient(to bottom, white, rgba(0, 0, 0, 0)) 1 100%;
+    border-style: solid;
+    border-width: 0 0 0 2px;
+    min-height: 350px;
+  }
+
+  .loginfrm{
+    padding: 10px;
+
+  }
+
+  .loginfrm .head {
+    border-width: 0px;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    text-shadow: 2px 2px 4px #393939;
+    background: #00000038;
+    font-size: 38px;
+    min-height: 135px;
+    line-height: 30px;
+    padding: 15px;
+  }
+
+  .loginfrm .body_desc {
+    color: #fff;
+    font-weight: normal;
+    font-size: 17px;
+    font-weight: normal;
+    background: #0606061f;
+    border-radius: 0 0 10px 10px ;
+    padding: 15px;
+
+  }
+
+  select.frm_control, input.frm_control {
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #00000052;
+    border-width: 0px;
+    width: 100%;
+    margin: 0 0;
+    height: 40px;
+    color: #fff;
+    padding: 0px 5px;
+
+  }
+
+  .loginfrm .btnlogin{
+    width: 100%;
+    background: #00000057;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin: 0 auto;
+    font-size: 25px;
+    color: #FFD700;
+    border-color: #FFD700;
+    font-weight: bold;
+    height: 40px;
+  }
+
+  .header_layout {
+    font-size: 36px;
+    width: 100%;
+    background-image: url('/img/bluetab.png');
+    background-repeat: no-repeat;
+    height: 70px;
+    font-family: 'BaiJamjuree Bold';
+    padding: 5px 20px;
+    border-image: linear-gradient(to right, #ffffff, rgba(255, 255, 255, 0)) 1;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    background-position-x: 100%;
+  }
+
+.label-frm {
+  font-size: 16px;
+  color: #Fff;
+  margin: 12px 0 5px 0;
+}
+
+
+#cboModelautocomplete-list {
+  position: absolute;
+  z-index: 999;
+  border-style: solid;
+  border-width: 2px;
+  border-radius:10px;
+  margin-top: 0px;
+  max-height: 205px;
+  overflow-y: scroll;
+  background: #7b7b7b;
+  min-width: 230px;
+}
+
+#cboModelautocomplete-list>div {
+  padding: 10px;
+  color: #fff;
+}
+#cboModelautocomplete-list>div:nth-child(2n) {
+
+  background-color: #878686;
+}
+
+
+#cboModelautocomplete-list>div:nth-child(n+1):hover {
+  background-color: #00000073;
+  cursor: pointer;
+}
+#cboModelautocomplete-list>div:nth-child(n+1):active {
+  background-color: #00000073;
+  cursor: pointer;
+}
+
+
+#cboModelautocomplete-list>div {
+  padding: 10px;
+  color: #fff;
+  font-weight: 400;
+  text-align: left;
+  font-size: 14px;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+body{
+  position: relative;
+}

@@ -1,0 +1,348 @@
+
+.add-row-btn {
+    margin-bottom: 10px;
+    background-color: #00c0ef;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.add-row-btn:hover {
+    background-color: #00a7d0;
+}
+.modal-body {
+    max-height: 400px;
+    overflow-y: auto;
+}
+.modal-body label {
+    color: #333;
+}
+.modal-body input, .modal-body select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+select.frm_control, input.frm_control, .mqa_table input {
+    border-style: solid;
+    border-width: 1px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px ;
+    font-size: 16px;
+
+}
+
+.btnAws {
+    width: 100%;
+}
+
+.btnAws .btn {
+    background: #0000004f; /* Màu nền đen mờ */
+    color: #fff; /* Chữ trắng */
+    border-width: 0 1px; /* Viền chỉ ở trái và phải */
+    border-color: #ffffff5c; /* Màu viền trắng mờ */
+    white-space: nowrap; /* Ngăn xuống dòng */
+    overflow: hidden; /* Ẩn nội dung tràn */
+    text-overflow: ellipsis; /* Thêm dấu "..." nếu text dài */
+    font-size: 20px;
+    color: #ffef04;
+    font-weight: bold;
+}
+
+/* Nếu cần đảm bảo chia đều hoàn toàn */
+.btnAws .btn-group {
+    display: table-cell; /* Giúp chia đều trong btn-group-justified */
+    width: 1%; /* Đảm bảo mỗi nút chiếm đều không gian */
+}
+
+.btnAws .btn:first-child {
+    border-width: 0;
+}
+
+.btnAws .btn:last-child {
+    border-width: 0;
+}
+
+.mqa_table {
+}
+
+.sidebar {
+    display: none; /* Ẩn phần tử */
+}
+
+.mqa_table thead {
+    font-size: 15px; /* Đổi cỡ chữ về 10px */
+    font-weight: bold;
+    background-color: #0000005c;
+    border-color: #ffffff2e;
+    text-align: center;
+}
+
+.mqa_table tbody {
+    font-size: 15px; /* Đổi cỡ chữ về 10px */
+    background-color: #00000024;
+}
+
+.mqa_table tr {
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #ffffff2e;
+}
+
+.mqa_table .mqa_desc {
+    width: 300px;
+    text-align: justify;
+    font-size: 15px; /* Đổi cỡ chữ về 10px */
+    padding: 6px;
+}
+
+
+button.btn.btn-default.active {
+    background: #fbeb00e0;
+    color: #000;
+    
+}
+
+.btn.btn-msuccess{
+    background: #0000004f;
+    border-width: 1px;
+    border-color: #ffffff5c;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+input.total_input, label.total_input{
+    width: 120px;
+    height: 45px;
+    font-size: 30px;
+    color: #ffef04;
+}
+
+.footer{
+    text-align: center;
+    background-color: #0000005c;
+    font-size: 36px;
+    color: #fff;
+}
+
+.mqa_table .rating_col{
+    background: #00000036;
+}
+
+/* TEST */
+.back-button {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px;
+  }
+  
+  .back-button a {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #44a3b3 0%, #2b838f 100%);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 10px 20px rgba(43, 131, 143, 0.3), 0 3px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-transform: uppercase;
+  }
+  
+  .back-button a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #3b95a3 0%, #236670 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+  }
+  
+  .back-button a:after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.2);
+    top: -40px;
+    left: -100px;
+    transform: rotate(35deg);
+    transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+    z-index: -1;
+  }
+  
+  .back-button a:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 15px 25px rgba(43, 131, 143, 0.4), 0 5px 10px rgba(0, 0, 0, 0.1);
+    letter-spacing: 1px;
+  }
+  
+  .back-button a:hover:before {
+    opacity: 1;
+  }
+  
+  .back-button a:hover:after {
+    left: 120%;
+    transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  
+  .back-button a:active {
+    transform: translateY(1px) scale(0.98);
+    box-shadow: 0 5px 10px rgba(43, 131, 143, 0.4);
+  }
+  
+  .back-button i {
+    margin-right: 10px;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .back-button a:hover i {
+    transform: translateX(-5px) scale(1.2);
+  }
+/* test2 */
+.container-fluid {
+    background: linear-gradient(143deg, rgba(41, 126, 150, 1) 0%, rgba(41, 126, 150, 1) 20%, rgba(24, 104, 112, 1) 43%, rgba(13, 89, 87, 1) 68%, rgba(22, 205, 200, 1) 100%);
+    padding: 2px 15px;
+    height: 800px;
+}
+
+.header_layout {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.7);
+}
+
+.back-button {
+    margin-top: 10px;
+}
+
+.back-button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.back-button a:hover {
+    color: #00ffcc;
+}
+
+.frm-search {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: nowrap; /* Đặt thành "nowrap" để các ô chọn nằm cùng hàng */
+    overflow-x: auto; /* Thêm cuộn ngang nếu không đủ không gian */
+}
+
+.frm-search li {
+    margin-right: 15px;
+    flex: 0 0 auto; /* Đảm bảo các ô chọn không thay đổi kích thước */
+}
+
+.label-frm {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 5px; /* Thêm khoảng cách giữa nhãn và ô chọn */
+}
+
+.frm_control {
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    width: 150px; /* Đặt chiều rộng cố định cho các ô chọn */
+    transition: background-color 0.3s ease;
+}
+
+.table {
+    color: #fff;
+    white-space: nowrap;
+    border-collapse: collapse;
+    width: auto; /* Đặt chiều rộng tự động */
+}
+
+.table th, .table td {
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.table th {
+    background-color: rgba(255, 255, 255, 0.1);
+    font-weight: bold;
+}
+
+.table td {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.table td:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+/* test3 */
+.table-container {
+    display: flex; /* Đặt hai bảng bên cạnh nhau */
+    position: relative;
+}
+
+.fixed-header {
+    position: sticky; /* Giữ cố định ở phía trên cùng */
+    top: 0;
+    /* background-color: rgba(41, 126, 150, 1); */
+    z-index: 10;
+}
+
+.scrollable-content {
+    overflow-x: auto; /* Cho phép cuộn ngang */
+    margin-left: 0; /* Đảm bảo không có khoảng cách */
+}
+.add-row-btn {
+    margin-bottom: 10px;
+    background-color: #00c0ef;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.add-row-btn:hover {
+    background-color: #00a7d0;
+}
+.modal-body {
+    max-height: 400px;
+    overflow-y: auto;
+}
+.modal-body label {
+    color: #333;
+}
+.modal-body input, .modal-body select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}

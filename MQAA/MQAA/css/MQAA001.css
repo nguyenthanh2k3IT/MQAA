@@ -1,0 +1,108 @@
+select.frm_control, input.frm_control, .mqa_table input {
+    border-style: solid;
+    border-width: 1px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px ;
+    font-size: 16px;
+
+}
+
+.btnAws {
+    width: 100%;
+}
+
+.btnAws .btn {
+    background: #0000004f; /* Màu nền đen mờ */
+    color: #fff; /* Chữ trắng */
+    border-width: 0 1px; /* Viền chỉ ở trái và phải */
+    border-color: #ffffff5c; /* Màu viền trắng mờ */
+    white-space: nowrap; /* Ngăn xuống dòng */
+    overflow: hidden; /* Ẩn nội dung tràn */
+    text-overflow: ellipsis; /* Thêm dấu "..." nếu text dài */
+
+    font-size: 20px;
+    color: #ffef04;
+    font-weight: bold;
+}
+
+/* Nếu cần đảm bảo chia đều hoàn toàn */
+.btnAws .btn-group {
+    display: table-cell; /* Giúp chia đều trong btn-group-justified */
+    width: 1%; /* Đảm bảo mỗi nút chiếm đều không gian */
+}
+
+.btnAws .btn:first-child {
+    border-width: 0;
+}
+
+.btnAws .btn:last-child {
+    border-width: 0;
+}
+
+.mqa_table{
+    
+}
+
+.mqa_table thead{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #0000005c;
+    border-color: #ffffff2e;
+    text-align: center;
+}
+
+.mqa_table tbody{
+    font-size: 15px;
+    background-color: #00000024;
+    
+}
+
+.mqa_table tr{
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #ffffff2e;
+}
+
+.mqa_table .mqa_desc{
+    width: 300px;
+    text-align: justify;
+    font-size: 14px;
+    padding: 10px;
+}
+
+
+button.btn.btn-default.active {
+    background: #fbeb00e0;
+    color: #000;
+    
+}
+
+.btn.btn-msuccess{
+    background: #0000004f;
+    border-width: 1px;
+    border-color: #ffffff5c;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+input.total_input, label.total_input{
+    width: 120px;
+    height: 45px;
+    font-size: 30px;
+    color: #ffef04;
+}
+
+.footer{
+    text-align: center;
+    background-color: #0000005c;
+    font-size: 36px;
+    color: #fff;
+}
+
+.mqa_table .rating_col{
+    background: #00000036;
+}
